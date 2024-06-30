@@ -1,0 +1,62 @@
+p {
+  margin: 0;
+  font-family: Arial;
+}
+
+.sidebar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.servers {
+  background-color: rgb(33, 33, 33);
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 50px;
+}
+
+.rooms {
+  background-color: rgb(55, 55, 55);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 150px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.info-heading {
+  color: white;
+  font-size: 14px;
+}
+
+.add {
+  color: rgb(150, 150, 150);
+  font-size: 24px;
+}
+
+.room {
+  color: rgb(150, 150, 150);
+  margin-bottom: 16px;
+}

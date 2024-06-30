@@ -1,0 +1,32 @@
+p {
+  margin: 0;
+}
+
+.lesson {
+  margin-bottom: 100px;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.pink {
+  background-color: lightpink;
+}
+
+.a {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.b {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.c {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}

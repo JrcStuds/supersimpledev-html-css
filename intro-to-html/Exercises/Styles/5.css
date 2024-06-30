@@ -1,0 +1,178 @@
+div {
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.a {
+  font-family: Tahoma;
+}
+.a-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.b {
+  font-family: Arial;
+}
+.b-title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.b-subtitle {
+  color: rgb(228, 73, 73);
+  font-style: italic;
+  font-size: 16px;
+}
+
+.c {
+  font-family: Verdana;
+  width: 300px;
+}
+.c-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.c-subtitle {
+  color: gray;
+  margin-bottom: 20px;
+}
+.c-description {
+  margin-bottom: 20px;
+}
+.c-button {
+  color: white;
+  background-color: rgb(43, 139, 43);
+  border: none;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+.c-button:hover {
+  background-color: rgb(70, 167, 58)
+}
+.c-button:active {
+  opacity: 0.7;
+}
+
+.d {
+  font-family: Arial;
+  text-align: center;
+}
+.d-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.d-subtitle {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.d-learn-more {
+  color: rgb(73, 146, 230);
+  font-size: 14px;
+  cursor: pointer;
+}
+.d-learn-more:hover {
+  text-decoration: underline;
+}
+
+.e {
+  font-family: Arial;
+  text-align: center;
+}
+.e-new {
+  color: rgb(248, 108, 66);
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.e-product {
+  font-weight: bold;
+  font-size: 18px;
+}
+.e-description {
+  font-weight: bold;
+  font-size: 34px;
+  margin-bottom: 7px;
+}
+.e-price {
+  color: rgb(59, 59, 59);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.e-button {
+  color: white;
+  background-color: rgb(74, 123, 230);
+  border: none;
+  border-radius: 100px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 13px;
+  padding-right: 13px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+.e-button:hover {
+  background-color: rgb(96, 141, 238);
+}
+.e-button:active {
+  opacity: 0.7;
+}
+
+.f {
+  font-family: Arial;
+}
+.f-header {
+  margin-bottom: 5px;
+}
+.f-money {
+  font-size: 30px;
+}
+.f-currency {
+  color: rgb(133, 133, 133);
+}
+.f-today {
+  color: rgb(5, 145, 40);
+  margin-bottom: 8px;
+}
+.f-after-hours {
+  color: rgb(105, 105, 105);
+}
+.f-loss {
+  color: rgb(230, 70, 70);
+}
+
+.g {
+  font-family: Arial;
+  line-height: 20px;
+  width: 500px;
+}
+.g-header {
+  margin-bottom: 5px;
+}
+.g-name {
+  font-weight: bold;
+}
+.g-username {
+  color: gray;
+  cursor: pointer;
+}
+.g-tag {
+  color: rgb(73, 146, 230);
+  cursor: pointer;
+}
+.g-tag:hover {
+  color: rgb(124, 176, 235);
+}
+.g-paragraph1 {
+  margin-bottom: 20px;
+}
