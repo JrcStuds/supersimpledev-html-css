@@ -28,6 +28,26 @@
 }
 
 .sidebar-link div {
-  font-family: Roboto, Arial;
   font-size: 10px;
+}
+
+@media (min-width: 1200px) {
+  .sidebar {
+    width: 180px;
+  }
+  
+  .sidebar-link {
+    flex-direction: row;
+    justify-content: start;
+    height: 40px;
+  }
+
+  .sidebar-link img {
+    margin: 0 20px;
+  }
+
+  .sidebar-link div {
+    font-size: 12px;
+    font-weight: 500;
+  }
 }

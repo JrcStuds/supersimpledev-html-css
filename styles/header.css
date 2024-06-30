@@ -49,9 +49,7 @@
   height: 36px;
   padding-left: 10px;
   font-size: 16px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(204, 204, 204);
+  border: 1px solid rgb(204, 204, 204);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 0;
@@ -96,7 +94,6 @@
   position: absolute;
   background-color: gray;
   color: white;
-  font-family: Roboto, Arial;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 8px;
@@ -157,7 +154,6 @@
   right: -7px;
   background-color: rgb(204, 0, 0);
   color: white;
-  font-family: Roboto, Arial;
   line-height: 15px;
   font-size: 10px;
   padding-left: 5px;
